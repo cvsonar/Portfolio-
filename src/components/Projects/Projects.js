@@ -21,7 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <h3>Collabrated Projects</h3>
+          {/* <h3>Collabrated Projects</h3> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -29,7 +29,7 @@ function Projects() {
               title="theshortlistd"
               description="This platform is designed to connect employers and job seekers, allowing employers to post job openings and candidates to apply for relevant positions."
               // ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://market-qa.theshortlistd.com/"
+              // demoLink="https://market-qa.theshortlistd.com/"
             />
           </Col>
 
@@ -54,7 +54,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -63,8 +63,8 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               // demoLink="https://editor.soumya-jit.tech/"
             />
-          </Col>
-          <Col md={4} className="project-card">
+          </Col> */}
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -73,8 +73,8 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               // demoLink="https://editor.soumya-jit.tech/"
             />
-          </Col>
-          <Col md={4} className="project-card">
+          </Col> */}
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -83,7 +83,7 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               // demoLink="https://editor.soumya-jit.tech/"
             />
-          </Col>
+          </Col> */}
           {/* <h3>Personal Projects</h3>
           <Col md={4} className="project-card">
             <ProjectCard
